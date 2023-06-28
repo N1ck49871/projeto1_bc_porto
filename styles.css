@@ -1,0 +1,28 @@
+main {
+  flex: 1;
+}
+.barral{
+  margin-top: 15vh;
+  margin-right: 4vw;
+  flex: 0 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-list {
+  text-align: center;
+  list-style-position: inside;
+}
+.artigos-container{
+  margin-left:6vw;
+  display: flex;
+  width: 80%;
+}
+.card{
+  width: 15vw;
+}
