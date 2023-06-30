@@ -1,11 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
 .barral {
   position: sticky;
   float: right;
   top: -10px;
   right: 0;
   height: 80vh;
-  width: 14vw; /* ou o valor desejado */
+  width: 20vw; /* ou o valor desejado */
   background-color: white;
   text-decoration: none;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.todosartigos {
+  display: flex;
+  flex-wrap: wrap;
+}
+#artigo1,
+#artigo2,
+#artigo3,
+#artigo4,
+#artigo5,
+#artigo6,
+#artigo7,
+#artigo8,
+#artigo9,
+#artigo10 {
+  width: 20%;
 }
