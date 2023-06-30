@@ -1,0 +1,11 @@
+.barral {
+  position: sticky;
+  float: right;
+  top: -10px;
+  right: 0;
+  height: 80vh;
+  width: 14vw; /* ou o valor desejado */
+  background-color: white;
+  text-decoration: none;
+  overflow: auto;
+}
